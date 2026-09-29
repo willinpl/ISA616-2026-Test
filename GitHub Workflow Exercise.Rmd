@@ -21,7 +21,9 @@ knitr::opts_chunk$set(fig.width=8, fig.height=6)
 
 
 ```{r}
-
+data(atcars)
+head(atcars)
+summary(atcars)
 ```
 
 
